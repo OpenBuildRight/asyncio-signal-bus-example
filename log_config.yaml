@@ -1,0 +1,16 @@
+version: 1
+disable_existing_loggers: False
+formatters:
+  console:
+    format: '%(name)-15s %(message)s'
+handlers:
+  console:
+    class: logging.StreamHandler
+    stream: ext://sys.stdout
+    level: INFO
+    formatter: console
+loggers: []
+root:
+  handlers:
+    - console
+  level: INFO
