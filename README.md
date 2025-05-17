@@ -31,7 +31,7 @@ export TELEMETRY_HOST=http://foo.localhost
 export TELEMETRY_PASSWORD=abc123 
 
 # Start the API
-uvicorn \
+poetry run uvicorn \
 --log-config=log_config.yaml  \
 asyncio_signal_bus_example.order_example.app:APP
 ```
