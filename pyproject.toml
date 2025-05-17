@@ -2,9 +2,9 @@
 name = "asyncio-signal-bus-example"
 version = "0.1.0"
 description = ""
-authors = ["dustin moriarty <dustin.moriarty@zoom.us>"]
+authors = ["dustin moriarty <dustin.moriarty@protonmail.com>"]
 readme = "README.md"
-license = { text = "MIT" }
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.12"
