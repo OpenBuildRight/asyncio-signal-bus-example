@@ -4,6 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["dustin moriarty <dustin.moriarty@zoom.us>"]
 readme = "README.md"
+license = { text = "MIT" }
 
 [tool.poetry.dependencies]
 python = "^3.12"
